@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .hero-bg {
-  background-image: url("/src/assets/heroimg.jpg");
+  background-image: url("/heroimg.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

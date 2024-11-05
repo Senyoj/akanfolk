@@ -30,7 +30,7 @@ const Home = () => {
 
       <div className="flex flex-col md:flex-row justify-between items-center gap-20 p-5 md:px-20">
         <div className="w-full flex  justify-center items-center">
-          <img src="/src/assets/africa.png" alt="" />
+          <img src="/africa.png" alt="" />
         </div>
         <div className="">
           <h6 className="text-gray-400 underline">About</h6>
@@ -62,7 +62,7 @@ const Home = () => {
       <div className=" p-5 md:px-44 relative">
         <div>
           <img
-            src="/src/assets/vera.png"
+            src="/vera.png"
             alt="Vera"
             className="absolute right-0 top-0 mix-blend-multiply opacity-20"
           />
@@ -113,7 +113,7 @@ const Home = () => {
           </div>
           <div>
             <img
-              src="/src/assets/made.png"
+              src="/made.png"
               alt="Vera"
               className=" absolute -right-20 top-32 mix-blend-multiply opacity-30"
             />
@@ -151,7 +151,7 @@ const Home = () => {
 
             <div className="w-full rounded-xl space-y-4">
               <img
-                src="/src/assets/dasa.png"
+                src="/dasa.png"
                 alt="Main image"
                 className="w-full rounded-4xl object-cover"
               />
@@ -159,7 +159,7 @@ const Home = () => {
               <div className="flex gap-4">
                 <a href="#" className="relative group w-1/2">
                   <img
-                    src="/src/assets/gameimg.png"
+                    src="/gameimg.png"
                     alt="Game 1"
                     className="w-full h-48 rounded-4xl object-cover"
                   />
@@ -172,7 +172,7 @@ const Home = () => {
                 </a>
                 <a href="#" className="relative group w-1/2">
                   <img
-                    src="/src/assets/ong.png"
+                    src="/ong.png"
                     alt="Game 2"
                     className="w-full h-48 rounded-4xl object-cover"
                   />
@@ -213,7 +213,7 @@ const Home = () => {
           {/* Image Section */}
           <div className="w-full md:w-1/2">
             <img
-              src="/src/assets/ctaimg.png"
+              src="/ctaimg.png"
               alt="Game Image"
               className="w-full h-full object-cover  rounded-none "
             />
