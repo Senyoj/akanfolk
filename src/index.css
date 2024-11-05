@@ -9,8 +9,8 @@
   background-repeat: no-repeat;
 }
 
-body{
-  background-color: #FFFCEA;
+body {
+  background-color: #fffcea;
 }
 
 h2 {
@@ -127,5 +127,3 @@ h3 {
     --chart-5: 340 75% 55%;
   }
 }
-
-

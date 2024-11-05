@@ -19,12 +19,6 @@ const Home = () => {
           <h3 className="font-montez mt-4 text-3xl">
             Where Tradition, Joy, and Culture Unite in Every Move
           </h3>
-          <input
-            type="search"
-            placeholder="Search"
-            name="search"
-            className="bg-yellow-200 bg-opacity-25 backdrop-blur-sm mt-6 px-4 py-3 rounded-2xl border min-w-[320px] border-black focus:outline-none focus:ring-2 focus:ring-[#FAC70A]"
-          />
         </div>
       </div>
 
@@ -46,7 +40,7 @@ const Home = () => {
             land is the Akan people, whose dynamic folk games are a joyful
             expression of identity and unity. These games are more than just
             play—they carry the heartbeat of Akan culture, connecting
-            generations through movement, music, and community
+            generations through Games, music, and Dance.
           </p>
           <Button className="flex bg-white shadow-xl rounded-3xl border justify-center items-center py-6 mt-4 hover:bg-white">
             <div className="flex gap-3 items-center bg-gradient-to-r from-[#000000] to-[#FAC70A] bg-clip-text text-transparent ">
@@ -76,8 +70,7 @@ const Home = () => {
             The Akan folk games are not just pastimes; they are a celebration of
             life and togetherness. Played during moonlit nights, community
             gatherings, and festivals, these games capture the essence of Akan
-            culture, teaching values of cooperation, agility, and joy through
-            play
+            culture, teaching values of cooperation, agility, and joy.
           </p>
         </div>
         <div className="">
@@ -99,7 +92,7 @@ const Home = () => {
               bonds, and celebrating important rites of passage. From games like
               Ampe, which foster agility and coordination, to Karikokoo,
               symbolizing teamwork and endurance, each activity carries its own
-              unique cultural significance
+              unique cultural significance.
             </p>
             <p className="text-lg pt-2">
               In the past, Akan games often played a pivotal role in rituals and
@@ -130,14 +123,15 @@ const Home = () => {
                 An Ancient Tradition of Fun and Learning
               </h1>
               <p className="text-lg py-4">
-                Explore a vivid collection of images and videos that capture the
+                Explore a vivid collection of Historical Events,that capture the
                 essence of Akan folk games. From the swift movements of Ampe to
-                the strategic play of Karikokoo, each frame tells a story of
-                cultural pride, community connection, and joyful expression.
+                the strategic play of hwehw3 mu koyi wo dɔfo, each frame tells a
+                story of cultural pride, community connection, and joyful
+                expressions.
               </p>
               <p className="text-lg py-4">
                 Witness the vibrant colors, energetic rhythms, and timeless
-                traditions that continue to inspire across generations.
+                Cultures that continue to inspire across generations.
               </p>
               <Button className="flex bg-white shadow-xl rounded-3xl border justify-center items-center py-6 mt-4 hover:bg-white">
                 <div className="flex gap-3 items-center bg-gradient-to-r from-[#000000] to-[#FAC70A] bg-clip-text text-transparent">
@@ -193,19 +187,19 @@ const Home = () => {
         <div className="border-2 border-[#FAC70A] flex flex-col md:flex-row justify-between items-center  rounded-3xl overflow-hidden">
           <div className="w-full md:w-1/2 p-8">
             <h1 className="font-montagu text-3xl md:text-6xl font-bold">
-              Rediscover the Heart of Akan Traditions
+              Rediscover the Heart of Akan Culture.{" "}
             </h1>
             <p className="text-lg py-3">
               Join us in preserving and celebrating the rich cultural legacy of
               Akan folk games. Dive into the stories, movements, and timeless
-              joy these games bring to the community.
+              joy these games bring to your community
             </p>
             <Button className="flex bg-white shadow-xl rounded-3xl border justify-center items-center py-6 mt-4 hover:bg-white">
               <div className="flex gap-3 items-center bg-gradient-to-r from-[#000000] to-[#FAC70A] bg-clip-text text-transparent">
                 <span>
                   <Compass className="text-black" />
                 </span>
-                <span>Discover More</span>
+                <span>Join Community</span>
               </div>
             </Button>
           </div>

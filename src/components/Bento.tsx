@@ -31,7 +31,7 @@ const items = [
   {
     title: "Ampe",
     description:
-      "This energetic game, played mostly by young girls, involves clapping, jumping, and coordination. It is a test of agility and rhythm, bringing excitement to any gathering.",
+      " Ampe is a folk game involving two or more female teams. Each team chooses either Ohyiwa or Opare. It involves jumping, clapping, and singing, with the winner declared when more selected choices occur. Played during leisure hours, simple songs require critical play to avoid cheating.",
     header: (
       <div className="relative flex items-center justify-center h-full bg-[#FFF6C5] rounded-xl overflow-hidden">
         <Button className="bg-white rounded-2xl">
@@ -79,7 +79,7 @@ const items = [
   {
     title: "Mpeewa",
     description:
-      "A traditional game mostly played by young girls, where precision and timing are key. Players toss pebbles or small objects in rhythm with a song.",
+      " Mpeewa is a female game played to entertain and educate the public. It involves slapping and clapping hands, with the song sung to the rhythm of the performers. The game is played in the evening, school sessions, and daytime, with casual dresses worn during performances. The game is governed by rhythm, with defaulters standing behind until the game is over.",
     header: (
       <div className=" flex items-center justify-center h-full bg-[#FFF6C5] rounded-xl overflow-hidden">
         <Button className="bg-white rounded-2xl">
@@ -102,15 +102,7 @@ const items = [
     description:
       "The tiny drum waits patiently; it is still beaten on the sacred day.",
     header: (
-      <div className="flex items-center justify-center h-full bg-[#FFF6C5] rounded-xl">
-        <Button className="bg-white rounded-2xl">
-          <Link to="">
-            <span className="bg-gradient-to-r from-[#000000] to-[#FAC70A] bg-clip-text text-transparent">
-              Learn More
-            </span>
-          </Link>
-        </Button>
-      </div>
+      <div className="flex items-center justify-center h-full bg-[#FFF6C5] rounded-xl"></div>
     ),
   },
 ];

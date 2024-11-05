@@ -23,8 +23,7 @@ const Footer = () => {
         {/* Slogan Section */}
         <div className="md:text-center w-full md:w-1/3">
           <p className="text-2xl md:text-4xl font-montez">
-            Nkyerɛkyerɛ nni fie,
-            <br /> abofra sua de ne ho.
+            Nkyerɛkyerɛ fie, abofra sua de ne ho.
           </p>
         </div>
 
