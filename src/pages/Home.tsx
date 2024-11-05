@@ -11,8 +11,8 @@ const Home = () => {
         <Navbar />
       </div>
 
-      <div className="hero-bg flex justify-center items-center h-screen text-center px-4">
-        <div>
+      <div className="hero-bg flex justify-center items-center h-screen text-center px-4 ">
+        <div className="p-5">
           <h1 className="font-montagu text-3xl md:text-6xl font-bold">
             Unleashing the Spirit of Play <br /> Akan Folk Games
           </h1>
@@ -23,7 +23,7 @@ const Home = () => {
             type="search"
             placeholder="Search"
             name="search"
-            className="bg-yellow-200 bg-opacity-25 backdrop-blur-sm mt-6 px-4 py-3 rounded-2xl border min-w-[400px] border-black focus:outline-none focus:ring-2 focus:ring-[#FAC70A]"
+            className="bg-yellow-200 bg-opacity-25 backdrop-blur-sm mt-6 px-4 py-3 rounded-2xl border min-w-[320px] border-black focus:outline-none focus:ring-2 focus:ring-[#FAC70A]"
           />
         </div>
       </div>

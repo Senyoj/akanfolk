@@ -16,11 +16,7 @@ const Footer = () => {
         {/* Logo Section */}
         <div className="flex justify-center items-center md:justify-start">
           <div>
-            <img
-              src="/logo.png"
-              alt="Logo"
-              className="h-16 md:h-20"
-            />
+            <img src="/logo.png" alt="Logo" className="h-16 md:h-20" />
           </div>
         </div>
 

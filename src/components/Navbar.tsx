@@ -32,7 +32,7 @@ const Navbar = () => {
     <>
       <div className="flex items-center justify-between p-5 md:px-10 lg:px-20 bg-black text-white">
         <div>
-          <img src="/src/assets/logo.png" alt="Logo" className="h-10" />
+          <img src="/logo.png" alt="Logo" className="h-10" />
         </div>
         <div className="hidden md:flex">
           <nav>
