@@ -6,7 +6,7 @@ import { ArrowUpRight, Compass } from "lucide-react";
 
 const Home = () => {
   return (
-    <div>
+    <div className="w-full overflow-hidden">
       <div>
         <Navbar />
       </div>
