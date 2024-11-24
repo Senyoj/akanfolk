@@ -9,21 +9,10 @@ const Navbar = () => {
       url: "/",
     },
     {
-      label: "About",
-      url: "/about",
-    },
-    {
       label: "Games",
       url: "/games",
     },
-    {
-      label: "History",
-      url: "/history",
-    },
-    {
-      label: "Gallery",
-      url: "/gallery",
-    },
+    
   ];
 
   const [isOpen, setIsOpen] = useState(false);

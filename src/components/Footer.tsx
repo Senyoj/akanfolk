@@ -4,10 +4,8 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const navlinks = [
     { label: "Home", url: "/" },
-    { label: "About", url: "/about" },
+    // { label: "About", url: "/about" },
     { label: "Games", url: "/games" },
-    { label: "History", url: "/history" },
-    { label: "Gallery", url: "/gallery" },
   ];
 
   return (

@@ -1,15 +1,10 @@
 import { GridGames } from "@/components/Bento";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, Compass } from "lucide-react";
 
 const Home = () => {
   return (
     <div className="w-full overflow-hidden">
-      <div>
-        <Navbar />
-      </div>
 
       <div className="hero-bg flex justify-center items-center h-screen text-center px-4 ">
         <div className="p-5">
@@ -64,7 +59,7 @@ const Home = () => {
         <div className=" w-full md:w-2/3 pt-20">
           <h6 className="text-gray-400 underline">Games</h6>
           <h1 className="font-montagu text-3xl md:text-6xl font-bold">
-            An Ancient Tradition of Fun and Learning
+            An Ancient Tradition of Fun and Learning{" "}
           </h1>
           <p className="text-lg">
             The Akan folk games are not just pastimes; they are a celebration of
@@ -213,10 +208,6 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
-
-      <div>
-        <Footer />
       </div>
     </div>
   );
