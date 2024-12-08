@@ -16,6 +16,7 @@ const AppLayout = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/games" element={<Games />} />
+        
         <Route path="*" element={<NotFound />} />
       </Routes>
       {showNavigation && <Footer />}

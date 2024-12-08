@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Play, Info, Image } from "lucide-react";
 import { games } from "../../data/data";
+
 const Games = () => {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -10,15 +11,16 @@ const Games = () => {
           Traditional Akan Games
         </h1>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="grid gap-8">
           {games.map((game, index) => (
             <Card
               key={index}
               className="overflow-hidden hover:shadow-lg transition-shadow"
             >
+              {/* Hero Image Section */}
               <div className="relative h-64 md:h-96 w-full overflow-hidden">
                 <img
-                  src="/api/placeholder/1200/800"
+                  src={game.mainImage || "/anhwewoakyire-1.png"}
                   alt={game.title}
                   className="w-full h-full object-cover"
                 />
@@ -28,10 +30,10 @@ const Games = () => {
                     {game.title}
                   </h2>
                   <div className="flex gap-3 flex-wrap">
-                    <span className="bg-blue-500/80 px-3 py-1 rounded-full text-sm">
+                    <span className="bg-blue-500/20 backdrop-blur-xl px-3 py-1 rounded-full text-sm">
                       {game.region}
                     </span>
-                    <span className="bg-green-500/80 px-3 py-1 rounded-full text-sm">
+                    <span className="bg-green-500/20 backdrop-blur-xl px-3 py-1 rounded-full text-sm">
                       {game.players}
                     </span>
                   </div>
@@ -40,6 +42,7 @@ const Games = () => {
 
               <CardContent className="p-0">
                 <Tabs defaultValue="overview" className="w-full">
+                  {/* Tabs Navigation */}
                   <div className="bg-gray-100 p-4">
                     <TabsList className="grid w-full grid-cols-3">
                       <TabsTrigger
@@ -61,28 +64,66 @@ const Games = () => {
                         className="flex items-center gap-2"
                       >
                         <Play className="w-4 h-4" />
-                        How to Play
+                        Play Mode
                       </TabsTrigger>
                     </TabsList>
                   </div>
 
+                  {/* Overview Tab */}
                   <TabsContent value="overview" className="p-6">
                     <div className="space-y-4">
                       <p className="text-gray-700 leading-relaxed text-lg">
                         {game.description}
                       </p>
+                      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                        {game.materials && (
+                          <div>
+                            <h4 className="font-semibold text-gray-800">
+                              Materials
+                            </h4>
+                            <p className="text-gray-600">
+                              {game.materials.join(", ")}
+                            </p>
+                          </div>
+                        )}
+                        {game.setting && (
+                          <div>
+                            <h4 className="font-semibold text-gray-800">
+                              Setting
+                            </h4>
+                            <p className="text-gray-600">{game.setting}</p>
+                          </div>
+                        )}
+                        {game.ageGroup && (
+                          <div>
+                            <h4 className="font-semibold text-gray-800">
+                              Age Group
+                            </h4>
+                            <p className="text-gray-600">{game.ageGroup}</p>
+                          </div>
+                        )}
+                      </div>
+                      {game.song && (
+                        <div className="mt-4">
+                          <h4 className="font-semibold text-gray-800 mb-2">
+                            Game Song
+                          </h4>
+                          <p className="text-gray-700 italic">"{game.song}"</p>
+                        </div>
+                      )}
                     </div>
                   </TabsContent>
 
+                  {/* Gallery Tab */}
                   <TabsContent value="gallery" className="p-6">
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                      {game.images.map(( imgIndex) => (
+                      {game.images.map((img, imgIndex) => (
                         <div
                           key={imgIndex}
                           className="aspect-video bg-gray-200 rounded-lg overflow-hidden"
                         >
                           <img
-                            src="/api/placeholder/400/300"
+                            src={img || "/api/placeholder/400/300"}
                             alt={`${game.title} gameplay ${imgIndex + 1}`}
                             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                           />
@@ -91,18 +132,19 @@ const Games = () => {
                     </div>
                   </TabsContent>
 
+                  {/* How to Play Tab */}
                   <TabsContent value="howto" className="p-6">
                     <div className="space-y-6">
-                      <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden mb-6">
+                      {/* <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden mb-6">
                         <img
-                          src="/api/placeholder/800/450"
-                          alt={`How to play ${game.title}`}
+                          src={game.mainImage || "/api/placeholder/800/450"}
+                          alt={`Play Mode ${game.title}`}
                           className="w-full h-full object-cover"
                         />
-                      </div>
+                      </div> */}
                       <div className="space-y-4">
                         <h3 className="text-xl font-semibold text-gray-800">
-                          How to Play
+                          Play Mode
                         </h3>
                         <ol className="space-y-3">
                           {game.howToPlay.map((step, stepIndex) => (
