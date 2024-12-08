@@ -12,7 +12,6 @@ const Navbar = () => {
       label: "Games",
       url: "/games",
     },
-    
   ];
 
   const [isOpen, setIsOpen] = useState(false);
@@ -20,9 +19,11 @@ const Navbar = () => {
   return (
     <>
       <div className="flex items-center justify-between p-5 md:px-10 lg:px-20 bg-black text-white">
-        <div>
-          <img src="/logo.png" alt="Logo" className="h-10" />
-        </div>
+        <a href="/">
+          <div>
+            <img src="/logo.png" alt="Logo" className="h-10" />
+          </div>
+        </a>
         <div className="hidden md:flex">
           <nav>
             <ul className="flex gap-5">

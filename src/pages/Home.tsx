@@ -5,7 +5,6 @@ import { ArrowUpRight, Compass } from "lucide-react";
 const Home = () => {
   return (
     <div className="w-full overflow-hidden">
-
       <div className="hero-bg flex justify-center items-center h-screen text-center px-4 ">
         <div className="p-5">
           <h1 className="font-montagu text-3xl md:text-6xl font-bold">
@@ -146,7 +145,7 @@ const Home = () => {
               />
 
               <div className="flex gap-4">
-                <a href="#" className="relative group w-1/2">
+                <a href="/games" className="relative group w-1/2">
                   <img
                     src="/gameimg.png"
                     alt="Game 1"
@@ -159,7 +158,7 @@ const Home = () => {
                     <span className="text-white text-lg">View More</span>
                   </div>
                 </a>
-                <a href="#" className="relative group w-1/2">
+                <a href="/games" className="relative group w-1/2">
                   <img
                     src="/ong.png"
                     alt="Game 2"
