@@ -8,10 +8,11 @@ const Home = () => {
       <div className="hero-bg flex justify-center items-center h-screen text-center px-4 ">
         <div className="p-5">
           <h1 className="font-montagu text-3xl md:text-6xl font-bold">
-            Unleashing the Spirit of Play <br /> Akan Folk Games
+            DIGITISATION OF AKAN FOLK GAMES{" "}
           </h1>
           <h3 className="font-montez mt-4 text-3xl">
-            Where Tradition, Joy, and Culture Unite in Every Move
+            {" "}
+            A PRESERVATION TOOL FOR GHANA'S CULTURAL HERITAGE
           </h3>
         </div>
       </div>
