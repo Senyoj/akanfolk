@@ -10,16 +10,16 @@ const Home = () => {
           <h1 className="font-montagu text-3xl md:text-6xl font-bold">
             DIGITISATION OF AKAN FOLK GAMES{" "}
           </h1>
-          <h3 className="font-montez mt-4 text-3xl">
+          <h4 className="font-sherif mt-4 text-3xl">
             {" "}
             A PRESERVATION TOOL FOR GHANA'S CULTURAL HERITAGE
-          </h3>
+          </h4>
         </div>
       </div>
 
       <div className="flex flex-col md:flex-row justify-between items-center gap-20 p-5 md:px-20">
         <div className="w-full flex  justify-center items-center">
-          <img src="/africa.png" alt="" />
+          <img src="/akan.png" alt="" />
         </div>
         <div className="">
           <h6 className="text-gray-400 underline">About</h6>
@@ -37,14 +37,14 @@ const Home = () => {
             play—they carry the heartbeat of Akan culture, connecting
             generations through Games, music, and Dance.
           </p>
-          <Button className="flex bg-white shadow-xl rounded-3xl border justify-center items-center py-6 mt-4 hover:bg-white">
+          {/* <Button className="flex bg-white shadow-xl rounded-3xl border justify-center items-center py-6 mt-4 hover:bg-white">
             <div className="flex gap-3 items-center bg-gradient-to-r from-[#000000] to-[#FAC70A] bg-clip-text text-transparent ">
               <span className="">
                 <Compass className="text-black" />
               </span>
               <span>Discover More</span>
             </div>
-          </Button>
+          </Button> */}
         </div>
       </div>
 
@@ -59,13 +59,13 @@ const Home = () => {
         <div className=" w-full md:w-2/3 pt-20">
           <h6 className="text-gray-400 underline">Games</h6>
           <h1 className="font-montagu text-3xl md:text-6xl font-bold">
-            An Ancient Tradition of Fun and Learning{" "}
+            The Home of Fun and Learning{" "}
           </h1>
           <p className="text-lg">
             The Akan folk games are not just pastimes; they are a celebration of
-            life and togetherness. Played during moonlit nights, community
-            gatherings, and festivals, these games capture the essence of Akan
-            culture, teaching values of cooperation, agility, and joy.
+            life and togetherness. Played during moonlit settings, community
+            gatherings, recreation in schools and festivals, these games unvail
+            the Akan Identity, Values and their Cultural practices.
           </p>
         </div>
         <div className="">
@@ -76,27 +76,29 @@ const Home = () => {
       <div className="p-5 md:px-44 relative">
         <div className="flex items-center justify-between">
           <div className=" w-full md:w-2/3 pt-20">
-            <h1 className="font-montagu text-3xl md:text-6xl font-bold">
-              Unearthing the Cultural Foundations of a Timeless Legacy.
+            <h1 className="font-montagu text-3xl md:text-6xl font-bold pb-10">
+              Preserving our Cultural Heritage - <br /> Akan Folk Games
             </h1>
             <p className="text-lg ">
               Akan folk games are more than simple pastimes; they are deeply
-              woven into the cultural and social fabric of Ghana, dating back
-              centuries. These games were not only a source of entertainment but
-              also a tool for teaching life skills, strengthening community
-              bonds, and celebrating important rites of passage. From games like
-              Ampe, which foster agility and coordination, to Karikokoo,
-              symbolizing teamwork and endurance, each activity carries its own
-              unique cultural significance.
+              woven into the socio-cultural fabric of the Akan people of Ghana.
+              These games are not only a source of entertainment but also a tool
+              for teaching life skills, strengthening community bonds, and
+              celebrating important rites of passage. From games like Ampe,
+              which foster agility and coordination, to Karikokoo, symbolizing
+              teamwork and endurance, each activity carries its own unique
+              cultural significance.
             </p>
             <p className="text-lg pt-2">
               In the past, Akan games often played a pivotal role in rituals and
               ceremonies, serving as a means of storytelling and preserving oral
               histories. Children learned the values of cooperation, leadership,
-              and patience through playful competition. Adults used these games
-              to demonstrate strength and wisdom in community gatherings. Even
-              today, these folk games remain an essential aspect of Akan
-              identity, celebrated at festivals, schools, and homes across Ghana
+              and patience through playful competition. The Akan folk games are
+              embeded with asthetics which shape the quality of people's lives,
+              Hence demostrating critical thinking to solve problems that
+              emanates in the society. These folk games are
+              essential aspects of Akan identity, celebrated at festivals,
+              schools, and homes across Ghana
             </p>
           </div>
           <div>
@@ -115,7 +117,7 @@ const Home = () => {
           <div className="w-full flex flex-col md:flex-row justify-between gap-20 items-center">
             <div className="w-full pt-20">
               <h1 className="font-montagu text-3xl md:text-6xl font-bold">
-                An Ancient Tradition of Fun and Learning
+                A Community of Fun and Learning
               </h1>
               <p className="text-lg py-4">
                 Explore a vivid collection of Historical Events,that capture the

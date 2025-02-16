@@ -48,20 +48,12 @@ const items = [
       " Mpeewa is a female game played to entertain and educate the public. It involves slapping and clapping hands, with the song sung to the rhythm of the performers. The game is played in the evening, school sessions, and daytime, with casual dresses worn during performances. The game is governed by rhythm, with defaulters standing behind until the game is over.",
     header: (
       <div className=" flex items-center justify-center h-full bg-[#FFF6C5] rounded-xl overflow-hidden">
-          <img
+        <img
           src="/src/assets/mena.png"
           alt="Mpeewa"
           className="absolute right-0 -bottom-16 mix-blend-multiply h-full opacity-10 "
         />
       </div>
-    ),
-  },
-  {
-    title: "Ntiaa twɛn abɛrɛ so, wɔbɔ no afɔremuka so",
-    description:
-      "The tiny drum waits patiently; it is still beaten on the sacred day.",
-    header: (
-      <div className=" flex items-center justify-center h-full bg-[#FFF6C5] rounded-xl"></div>
     ),
   },
 ];

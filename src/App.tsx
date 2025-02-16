@@ -1,10 +1,15 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import Home from "./pages/Home.js";
 import NotFound from "./pages/NotFound.js";
 import Games from "./pages/Games.js";
 import Navbar from "./components/Navbar.js";
 import Footer from "./components/Footer.js";
-
+import Places from "./pages/Places.js";
 const AppLayout = () => {
   const location = useLocation();
   const validRoutes = ["/", "/games"];
@@ -16,7 +21,8 @@ const AppLayout = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/games" element={<Games />} />
-        
+        <Route path="/locations" element={<Places />} />
+
         <Route path="*" element={<NotFound />} />
       </Routes>
       {showNavigation && <Footer />}

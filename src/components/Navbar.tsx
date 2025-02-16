@@ -1,6 +1,12 @@
 import { Link } from "react-router-dom";
 import { Button } from "./ui/button";
 import { useState } from "react";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 const Navbar = () => {
   const navlinks = [
@@ -37,12 +43,26 @@ const Navbar = () => {
             </ul>
           </nav>
         </div>
+        {/* Desktop Dropdown */}
         <div className="hidden md:block">
-          <Button className="bg-white rounded-2xl">
-            <span className="bg-gradient-to-r from-[#000000] to-[#FAC70A] bg-clip-text text-transparent">
-              Community
-            </span>
-          </Button>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button className="text-black bg-white text-sm px-6 py-3 rounded-lg hover:bg-gray-200">
+                Community
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent className="bg-white shadow-lg rounded-lg mt-2 text-black w-64 py-3">
+              <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
+                Akyem
+              </DropdownMenuItem>
+              <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
+                Asante
+              </DropdownMenuItem>
+              <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
+                Bono
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
         {/* Mobile Menu Button */}
         <div className="md:hidden">
@@ -88,11 +108,25 @@ const Navbar = () => {
             </ul>
           </nav>
           <div className="px-5 py-2">
-            <Button className="bg-white  w-full">
-              <span className="bg-gradient-to-r from-[#000000] to-[#FAC70A] bg-clip-text text-transparent">
-                Community
-              </span>
-            </Button>
+            {/* Mobile Dropdown */}
+            <DropdownMenu>
+              <DropdownMenuTrigger asChild>
+                <Button className="bg-white w-full text-black text-lg px-6 py-3 rounded-lg hover:bg-gray-200">
+                  Community
+                </Button>
+              </DropdownMenuTrigger>
+              <DropdownMenuContent className="bg-white shadow-lg rounded-lg mt-2 text-black w-64 py-3">
+                <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
+                  Akyem
+                </DropdownMenuItem>
+                <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
+                  Asante
+                </DropdownMenuItem>
+                <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
+                  Bono
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
           </div>
         </div>
       )}
