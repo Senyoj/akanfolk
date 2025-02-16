@@ -53,7 +53,7 @@ const Navbar = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="bg-white shadow-lg rounded-lg mt-2 text-black w-64 py-3">
               <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
-                Akyem
+                <Link to="/locations">Akyem</Link>
               </DropdownMenuItem>
               <DropdownMenuItem className="px-6 py-4 text-lg hover:bg-gray-100 cursor-pointer">
                 Asante
