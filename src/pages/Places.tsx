@@ -1,4 +1,3 @@
-import React from "react";
 
 // Dummy data for places
 const placesData = [
