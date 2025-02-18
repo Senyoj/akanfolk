@@ -35,7 +35,7 @@ const Home = () => {
             land is the Akan people, whose dynamic folk games are a joyful
             expression of identity and unity. These games are more than just
             play—they carry the heartbeat of Akan culture, connecting
-            generations through Games, music, and Dance.
+            generations through  music, and Dance.
           </p>
           {/* <Button className="flex bg-white shadow-xl rounded-3xl border justify-center items-center py-6 mt-4 hover:bg-white">
             <div className="flex gap-3 items-center bg-gradient-to-r from-[#000000] to-[#FAC70A] bg-clip-text text-transparent ">
